@@ -1,14 +1,19 @@
 body{
-    display: flex;
-    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    
 }
-
 .header{
     display:flex;
     justify-content: space-between;
     background-color: #1f2937;
     color: #f9faf8;
     padding: 15px;
+}
+
+.header div{
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .header ul {
@@ -19,4 +24,50 @@ body{
     margin: 0;
     padding: 0;
     gap: 15px;
+    font-size: 18px;
+    color: #e5e7eb;
 }
+.section1{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 40px;
+    
+}
+.section1 h1{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.section1 p{
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.section1 .left{
+    width: 50%;
+    margin: 0;
+    
+}
+.section1 .right{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.section1 img{
+    height: 200px;
+    border-radius: 5px;
+}
+.section1 button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: 700;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+

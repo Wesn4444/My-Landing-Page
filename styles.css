@@ -1,6 +1,7 @@
 body{
-    margin: 0;
+   
     height: 100vh;
+    margin: 0;
     
 }
 .header{
@@ -8,14 +9,13 @@ body{
     justify-content: space-between;
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 15px;
+    padding: 15px 80px;
+    
 }
-
 .header div{
     font-size: 24px;
     color: #f9faf8;
 }
-
 .header ul {
     display: flex;
     flex-direction: row ;
@@ -32,8 +32,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 40px;
-    
+    padding: 40px 80px;
+    flex: 0 0 auto;
 }
 .section1 h1{
     color: #f9faf8;
@@ -48,20 +48,6 @@ body{
     margin: 0;
     margin-bottom: 5px;
 }
-.section1 .left{
-    width: 50%;
-    margin: 0;
-    
-}
-.section1 .right{
-    display: flex;
-    justify-content: center;
-    width: 50%;
-}
-.section1 img{
-    height: 200px;
-    border-radius: 5px;
-}
 .section1 button{
     background-color: #3882f6;
     color: #e5e7eb;
@@ -70,4 +56,52 @@ body{
     border-radius: 5px;
     padding: 5px 15px;
 }
+.left{
+    width: 450px;
+}
+.right img{
+    width:300px
+}
+.section1 img{
+    border-radius: 5px;
+}
+.header2 {
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container div {
+    width: 150px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+h3{
+    height:50px
+}
+img{
+    width: 150px;
+}
 
+.section3{
+    background-color: #e5e7eb;
+    padding: 40px 80px
+}
+.section3 p{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 100;
+}
+.credit{
+    text-align: right;
+    font-weight: 700;
+}
